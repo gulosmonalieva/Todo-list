@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  background-color: rgb(184, 212, 236);
+}
+.wrapper {
+  width: 400px;
+  margin: 0 auto;
+  margin-top: 100px;
+  text-align: center;
+}
+.form {
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  background-color: rgb(123, 174, 157);
+  border: 1px solid black;
+  padding: 15px;
+  margin-bottom: 50px;
+  border-radius: 5px;
+}
+.label {
+  font-size: 26px;
+  font-weight: 700;
+}
+.input {
+  width: 300px;
+  height: 35px;
+  border-radius: 5px;
+}
+.btn {
+  font-size: 16px;
+  background-color: rgb(204, 196, 196);
+  width: 300px;
+  height: 30px;
+  border-radius: 5px;
+}
+.list {
+  width: 340px;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+  text-align: start;
+  background-color: rgb(123, 174, 157);
+}
+.todo-item {
+  padding: 5px;
+  border-radius: 5px;
+  background-color: rgb(204, 196, 196);
+  margin-bottom: 10px;
+}
